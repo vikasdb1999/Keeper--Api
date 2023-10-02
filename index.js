@@ -9,7 +9,7 @@ const GoogleStrategy = require('passport-google-oauth2').Strategy;
 const session = require('express-session');
 require('dotenv').config();
 const app = express();
-const CLIENT_URL = 'https://snazzy-gnome-5048d5.netlify.app/';
+const CLIENT_URL = 'https://snazzy-gnome-5048d5.netlify.app/app';
 
 
 const connectDB = async () => {
