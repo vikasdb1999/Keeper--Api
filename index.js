@@ -25,7 +25,7 @@ const connectDB = async () => {
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://main--snazzy-gnome-5048d5.netlify.app/",
     methods: "GET,POST,PUT,DELETE",
     credentials: true,
   })
