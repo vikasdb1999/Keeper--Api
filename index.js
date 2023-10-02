@@ -57,7 +57,7 @@ passport.deserializeUser((id, done) => {
 passport.use(new GoogleStrategy({
   clientID: process.env.CLIENT_ID,
   clientSecret: process.env.CLIENT_SECRET,
-  callbackURL: "http://localhost:4000/auth/google/callback",
+  callbackURL: "https://main--snazzy-gnome-5048d5.netlify.app/auth/google/callback",
   passReqToCallback: true,
 }, async (req, accessToken, refreshToken, profile, done) => {
   try {
